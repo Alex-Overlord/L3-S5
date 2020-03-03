@@ -1,0 +1,41 @@
+body {
+  background-color: rosybrown;
+}
+
+header {
+  border-bottom-style: solid;
+  text-align: center;
+}
+
+footer {
+  border-top-style: solid;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+#menu {
+  position:absolute;
+}
+
+#main {
+  left: 25%;
+  margin:auto;
+  position:relative;
+}
+
+h1 {
+  color: black;
+}
+
+footer {
+  float: bottom;
+}
+
+#form select{
+	position:relative;
+	display:block;
+	overflow:auto;
+}

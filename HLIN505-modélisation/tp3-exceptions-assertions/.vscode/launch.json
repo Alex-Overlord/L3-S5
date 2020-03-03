@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Exo3",
+      "request": "launch",
+      "mainClass": "Exo3",
+      "projectName": "tp3-exceptions-assertions_58b90986"
+    }
+  ]
+}

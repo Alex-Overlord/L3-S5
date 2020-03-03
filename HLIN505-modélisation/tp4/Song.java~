@@ -1,0 +1,21 @@
+package tp4-interfaces-annotations;
+
+import java.io.IOException;
+
+public class Song extends AbstractAudioElement {
+    private String singer;
+    private int duration;
+
+    @Overriade
+    public int getDuration() {
+	return duration;
+    }
+    
+    public Song(String title, String fileLocation, String singer, int duration) throws IncorrectFileNameException {
+	super(title, fileLocation);
+	this.singer = singer;
+	this.duration = duration;
+	if (!getFile().exists()) {
+	    throw new IncorrectFileNameException(fileLocation);
+	}
+    }

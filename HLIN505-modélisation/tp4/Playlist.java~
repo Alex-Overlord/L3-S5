@@ -1,0 +1,5 @@
+package tp4-interfaces-annotations;
+
+public interface Playlist extends ElementAudio {
+    public abstract int getNbElem();
+}
